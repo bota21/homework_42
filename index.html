@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header_menu">
+        <div class="header_menu_items">
+          <a href="#" class="header_menu_items_item">HOME</a>
+          <a href="#" class="header_menu_items_item">ABOUT</a>
+          <a href="#" class="header_menu_items_item">TEAM</a>
+          <a href="#" class="header_menu_items_item">BOOKING</a>
+        </div>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <div class="header_menu_items">
+          <a href="#" class="header_menu_items_item">MENU</a>
+          <a href="#" class="header_menu_items_item">GALERIE</a>
+          <a href="#" class="header_menu_items_item">EVENTS</a>
+          <a href="#" class="header_menu_items_item">CONTACT</a>
+        </div>
+      </nav>
+      <div class="header_wrappers">
+        <div class="header_wrappers_wrapper">
+          <h6 class="header_wrappers_wrapper_name">RESTAURANT</h6>
+          <h1 class="header_wrappers_wrapper_title">hungry people</h1>
+          <div class="wrapper_border"></div>
+          <div class="header_wrappers_wrapper_buttons">
+            <button class="header_wrappers_wrapper_buttons_button">BOOK TABLE</button>
+            <button class="header_wrappers_wrapper_buttons_button">EXPLORE</button>
+          </div>
+          <a href="#about" class="header_wrappers_wrapper_scroll"></a>
+        </div>
+        <div class="header_wrappers_wrapper">
+          <a href="#" class="header_wrappers_wrapper_social"></a>
+          <a href="#" class="header_wrappers_wrapper_social"></a>
+          <a href="#" class="header_wrappers_wrapper_social"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="about" id="about">
+    <div class="container about_container">
+      <div class="about_wrapper">
+        <h3 class="about_wrapper_title">about us</h3>
+        <div class="wrapper_border"></div>
+        <p class="about_wrapper_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+        </p>
+        <p class="about_wrapper_text">
+          Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum,
+          enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+          feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+        </p>
+      </div>
+      <div class="about_wrapper">
+        <img src="img/fire.png" alt="Fire" class="wrapper_image">
+        <div class="about_wrapper_frame wrapper_frame"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container content_container">
+      <h5 class="content_title">OUR TEAM</h5>
+      <div class="content_wrappers">
+        <div class="content_wrappers_wrapper">
+          <img src="img/cook.png" alt="Cook" class="wrapper_image">
+          <div class="content_wrappers_wrapper_frame wrapper_frame"></div>
+        </div>
+        <div class="content_wrappers_wrapper">
+          <h3 class="content_wrappers_wrapper_title">MASTER CHEF</h3>
+          <div class="content_wrappers_wrapper_border wrapper_border"></div>
+          <p class="content_wrappers_wrapper_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+            velit maximus,
+            molestie est a, tempor magna.</p>
+          <p class="content_wrappers_wrapper_text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+            posuere. Morbi
+            non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+            quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form">
+    <div class="container form_container">
+      <div class="form_wrappers">
+        <h3 class="form_wrappers_title">book a table</h3>
+        <div class="form_wrappers_border wrapper_border"></div>
+        <form action="#">
+          <div class="form_wrappers_wrapper">
+            <input type="text" class="form_wrappers_wrapper_input" placeholder="Name">
+            <input type="text" class="form_wrappers_wrapper_input" placeholder="Email">
+            <input type="text" class="form_wrappers_wrapper_input" placeholder="Phone">
+            <div class="form_wrappers_wrapper_select-wrapper">
+              <select class="form_wrappers_wrapper_select-wrapper_select">
+                <option>People</option>
+              </select>
+            </div>
+            <input type="text" class="form_wrappers_wrapper_input" placeholder="Date (mm/dd)">
+            <div class="form_wrappers_wrapper_select-wrapper">
+              <select class="form_wrappers_wrapper_select-wrapper_select">
+                <option>Time</option>
+              </select>
+            </div>
+          </div>
+          <input type="submit" value="BOOK NOW" class="form_wrappers_wrapper_submit">
+        </form>
+      </div>
+      <div class="form_wrappers">
+        <img src="img/clock.png" alt="Clock" class="wrapper_image">
+        <div class="form_wrappers_frame wrapper_frame"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slick">
+    <div class="promo">
+      <div class="container promo_container">
+        <h5 class="promo_wrappers_title">specialties</h5>
+        <div class="promo_wrappers">
+          <div class="promo_wrappers_wrapper">
+            <div class="promo_wrappers_wrapper_frame wrapper_frame"></div>
+            <img src="img/desert.png" alt="Desert" class="wrapper_image">
+          </div>
+          <div class="promo_wrappers_wrapper">
+            <h3 class="promo_wrappers_wrapper_title">chocolate pancakes</h3>
+            <div class="promo_wrappers_wrapper_border wrapper_border"></div>
+            <p class="promo_wrappers_wrapper_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.</p>
+            <p class="promo_wrappers_wrapper_text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros,
+              a
+              sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+              semper
+              laoreet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slick_second"></div>
+    <div class="slick_third"></div>
+  </div>
+
+  <div class="container contact_container">
+    <div class="contact_wrapper">
+      <h3 class="contact_wrapper_title">CONTACT</h3>
+      <div class="wrapper_border"></div>
+      <p class="contact_wrapper_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+        molestie est a, tempor magna.</p>
+    </div>
+    <form action="#">
+      <div class="contact_form">
+        <input type="text" class="contact_form_input" placeholder="Nume">
+        <input type="email" class="contact_form_input" placeholder="Email">
+        <input type="text" class="contact_form_input" placeholder="Phone">
+        <textarea class="contact_form_textarea" placeholder="Message"></textarea>
+        <div class="contact_form_wrapper">
+          <div class="contact_form_wrapper_contacts">
+            <a href="#" class="contact_form_wrapper_contacts_contact">5th London Boulevard, U.K.</a>
+            <a href="#" class="contact_form_wrapper_contacts_contact"> +40 729 131 637/+40 726 458 782</a>
+            <a href="#" class="contact_form_wrapper_contacts_contact"> office@mindblister.com</a>
+          </div>
+          <input type="submit" value="SEND MESSAGE" class="contact_form_wrapper_send">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    © Copyright <a href="#"> Mindblister </a> 2019
+  </footer>
+</body>
+
+</html>
